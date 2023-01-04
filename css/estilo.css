@@ -1,0 +1,89 @@
+        /* Formatação do Cabeçalho */
+        header{
+            margin: 10px 0px 5px 0;
+            height: 70px;
+        }
+        #cabecalho .link a{
+            color: #000;
+        }
+
+        /* Formatação da barra de navegação */
+
+        .appMenuIcons{ /* Icones do cabeçalho */
+            font-size: 30px;
+        }
+
+        #nav-principal ul{ /* Barra de icones do menu App */
+            padding-top: 10px ;
+            padding-left: 10px;
+            margin-top: 8px;
+            margin-right: 2em;
+            border-radius: 15px;                
+            background:#fff ;
+            height: 390px;
+            width: 300px;
+            overflow:auto; /*Inclui uma barra de rolagem dentro da navegação extendida*/
+            overflow-x: hidden; /* Esconde a barra de rolagem da navegação extendida*/             
+            float:right; /* Mantem a barra de navegação à direita da tela em qualquer tamanho*/
+            box-shadow: 1px 1px 5px 5px rgba(000,000,000,0.1);                
+        }
+
+        #nav-principal ul::-webkit-scrollbar{ /* Formatando a barra de rolagem da lista de icones*/
+            width: 10px;
+        } 
+
+        #nav-principal ul li{ /*Formatando os campos dos icones icones*/                         
+            margin: 1px ; 
+            width: 90px;
+            height: 80px;
+            text-align: center;                
+            float: left;
+            justify-content: center;               
+        }
+
+        #nav-principal ul li:hover{
+            background-image: linear-gradient(to bottom right, #E0FFFF, #E0FFFF, #E0FFFF, #E0FFFF,#fff, #E0FFFF, #E0FFFF, #E0FFFF, #E0FFFF);              
+        }
+
+        #nav-principal ul li span{ /* Formatando a fonte de baixo dos icones */
+            font-size: 18px;
+
+        }
+
+        #nav-principal ul li a i{ /* Formatação Icones */
+            font-size: 36px;
+            color: rebeccapurple;
+        }
+
+    /* Formatação do Corpo */
+
+        #googleImg{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        /* Formatação do formulario de pesquisa */
+
+            .form-group input{
+                
+                border-radius: 30px;
+                box-shadow: 1px 1px 10px 2px rgba(000,000,000,0.1);
+            }
+
+    /* Fomatação do rodapé */
+    footer{
+        background: rgba(000,000,000,0.1); 
+        white-space:nowrap;       
+    }
+
+    .itemRodapeEsquerda a{
+        color: #000;        
+        text-decoration: none;
+        margin-left: 1rem;
+    }
+
+    .itemRodapeDireita a{
+        color: #000;        
+        text-decoration: none;
+        margin-right: 1rem;
+    }
